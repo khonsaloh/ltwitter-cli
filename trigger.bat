@@ -27,10 +27,3 @@ set /p opcion=elige opcion:
 python C:\Users\exp\scripts\scraping\plantillas\twitter\twitterlineadecomando.py %opcion%
 goto RETURN
 
-goto END
-
-echo.
-goto END
-
-echo.
-:END
