@@ -8,19 +8,7 @@ echo.
 echo.
 echo =============== TWITTER =====================
 echo.
-echo (1) twitter CLI
 
-echo.
-
-set /p caso=elige opcion: 
-
-echo.
-if %caso%==1 goto TWEET
-
-echo.
-echo.
-
-:TWEET
 python C:\Users\exp\scripts\scraping\plantillas\twitter\twitterlineadecomando.py -h
 echo.
 set /p opcion=elige opcion: 
