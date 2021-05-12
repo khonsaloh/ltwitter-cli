@@ -12,6 +12,9 @@ consumer_secret = ''
 access_token = ''
 access_token_secret = ''
 ```
+
+## Buy me a coffee
+<a href="https://www.paypal.me/60nza10"><img src="https://img.shields.io/badge/don-paypal-blue"></a> 
 <!--if yout have `tweepy` already installed, you can try it by:-->
 
 
