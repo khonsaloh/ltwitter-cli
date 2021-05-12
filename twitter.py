@@ -3,12 +3,7 @@
 import tweepy
 import json
 from time import sleep
-
-consumer_key = ''
-consumer_secret = ''
-
-access_token = ''
-access_token_secret = ''
+from tokens import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -122,5 +117,3 @@ while True:
         exit()
     elif ans !="":
       print("\n Not Valid Choice Try again") 
-
-
